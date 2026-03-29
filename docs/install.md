@@ -8,6 +8,7 @@ There are some ways to install ghalint.
 1. [Mise](#mise)
 1. [Scoop](#scoop)
 1. [aqua](#aqua)
+1. [mise](#mise)
 1. [GitHub Releases](#github-releases)
 1. [Build an executable binary from source code yourself using Go](#build-an-executable-binary-from-source-code-yourself-using-go)
 
@@ -48,6 +49,14 @@ You can install ghalint using [aqua](https://aquaproj.github.io/).
 
 ```sh
 aqua g -i suzuki-shunsuke/ghalint
+```
+
+## mise
+
+You can install ghalint using [mise](https://github.com/jdx/mise).
+
+```sh
+mise use -g ghalint@latest
 ```
 
 ## Build an executable binary from source code yourself using Go
